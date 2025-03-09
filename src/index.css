@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base-default: #fffdee;
+  --color-input-default: #f1f1f1;
+  --color-atau-default: #d32e1f;
+  --color-primary-default: #3ecf4c;
+  --color-input-primary: #b3b3b3;
+  --color-button-default: #3f4254;
+
+  --color-primary-400: #6be26b;
+  --color-primary-300: #94f08b;
+  --color-primary-200: #c0fab4;
+  --color-primary-100: #e2fcd9cc;
+
+  --color-secondary-default: #ffbd3a;
+  --color-secondary-400: #ffd26b;
+  --color-secondary-300: #ffdf88;
+  --color-secondary-200: #ffecb0;
+  --color-secondary-100: #fff7d7cc;
+
+  --color-tertiary-default: #f64920;
+  --color-tertiary-400: #f98256;
+  --color-tertiary-300: #fca578;
+  --color-tertiary-200: #fecaa5;
+  --color-tertiary-100: #fee8d2cc;
+
+  --color-textDark-primary: #222325;
+  --color-textDark-secondary: #333333ad;
+  --color-textDark-disabled: #3a354161;
+  --color-textDark-Tertiary: #4a505c;
+
+  --color-textLight-primary: #ffffff;
+  --color-textLight-secondary: #c1c2c4;
+  --color-textLight-disabled: #9d9ea1;
+
+  --color-other-primaryBackground: #ffffff;
+  --color-other-baseBackground: #f4f5fa;
+  --color-other-secondaryBackground: #f9fafc;
+  --color-other-border: #3a35411f;
+
+  --color-info-pressed: #044aa2;
+  --color-info-hover: #0663c2;
+  --color-info-default: #0980e2;
+  --color-info-background: #ebf9fe;
+
+  --color-success-pressed: #1c9675;
+  --color-success-hover: #28b380;
+  --color-success-default: #38d189;
+  --color-success-background: #e0fddf;
+
+  --color-warning-pressed: #b5a40d;
+  --color-warning-hover: #d8c613;
+  --color-warning-default: #fce91b;
+  --color-warning-background: #fcf8ca;
+
+  --color-error-pressed: #b72315;
+  --color-error-hover: #db3d1f;
+  --color-error-default: #ff5c2b;
+  --color-error-background: #fce3d1;
+
+  --color-greyscale-900: #212121;
+  --color-greyscale-800: #424242;
+  --color-greyscale-700: #616161;
+  --color-greyscale-600: #757575;
+  --color-greyscale-500: #9e9e9e;
+  --color-greyscale-400: #bdbdbd;
+  --color-greyscale-300: #e0e0e0;
+  --color-greyscale-200: #eeeeee;
+  --color-greyscale-100: #f5f5f5;
+  --color-greyscale-50: #fafafa;
+
+  --color-gradient-primary: linear-gradient(90deg, #3ecf4c, #b72315);
+  --color-gradient-secondary: linear-gradient(135deg, #ffbd3a, #ffd26b);
+  --color-gradient-tertiary: linear-gradient(135deg, #f64920, #f98256);
+}
+
+@layer base {
+  h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  h5 {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  h6 {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
